@@ -1,4 +1,4 @@
-# 2023 공공데이터 창업 경진대회 - 반려동물 질병 진단 시스템
+# 반려동물 질병 진단 시스템
 
 ![발표자료 타이틀](images/title.png)
 
@@ -24,20 +24,24 @@
 ## 🔍 객체 검출 샘플 (Object Detection Sample)
 
 ### 반려견 안구 질병 검출 결과
+
 ![반려견 안구 질병 검출 결과](images/dog_eye_disease.jpg)
 
 ### 반려묘 피부 질병 검출 결과
+
 ![반려묘 피부 질병 검출 결과](images/cat_skin_disease.jpg)
 
 ## 🛠 기술 스택 (Tech Stack)
 
 ### Backend
+
 - **Framework**: FastAPI
 - **AI/ML**: PyTorch, YOLOF (You Only Look One-level Feature), OpenCV
 - **Database**: TinyDB (JSON 기반 경량 데이터베이스)
 - **Library**: `torch`, `torchvision`, `opencv-python`, `pycocotools` 등
 
 ### Frontend
+
 - **Framework**: Next.js (React)
 - **Language**: TypeScript
 - **UI Library**: Material UI (MUI)
