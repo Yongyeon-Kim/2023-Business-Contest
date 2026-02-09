@@ -188,3 +188,5 @@ pyrightconfig.json
 coco/
 dataset/
 upload/
+static/*.jpg
+!static/.gitkeep
